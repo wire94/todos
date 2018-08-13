@@ -1,0 +1,12 @@
+[
+    {
+        "text": "Buy Milk",
+        "id": "1",
+        "completed": true
+    },
+    {
+        "text": "Hit Gym",
+        "id": "2",
+        "completed": false
+    }
+]

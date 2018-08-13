@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+* {
+    font-family: 'Jua' !important;
+}
+
+.ui.icon {
+    font-family: initial
+}
+
+body {
+    background: url(./images/todos-bg.jpg);
+    color: #FFF;
+}
+
+.todos-font-xl {
+    font-size: 88px
+}
+
+.todos-fg-default {
+    color: #00C6FF
+}
+
+.todos-fg-danger {
+    color: #F00
+}
+
+.todos-align-center {
+    text-align: center
+}
+
+#todos-header-container {
+    padding-top: 45px
+}
+
+#todos-list-container {
+    margin-top: 25px
+}
+
+.todos-item {
+    position: relative;
+    padding-right: 10px;
+    word-break: break-all
+}
+
+.todos-item:not(:first-child) {
+    margin-top: 12.5px
+}
+
+.todos-item:not(:last-child) {
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 12.5px
+}
+
+.todos-list-remove {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    color: rgba(255, 0, 0, 0.7);
+    z-index: 99
+}
+
+.todos-list-remove:hover {
+    color: rgba(255, 0, 0);
+    cursor: pointer
+}
+
+.todos-active {
+    text-decoration: none
+}
+
+.todos-completed {
+    text-decoration: line-through;
+    color: rgba(127, 127, 127, 0.7)
+}
