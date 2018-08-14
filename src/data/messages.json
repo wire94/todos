@@ -1,0 +1,14 @@
+{
+    "todos": {
+        "info": {
+            "empty": {
+                "all": "You don't have any ToDo's!",
+                "active": "You don't have any Active ToDo's!",
+                "completed": "None of the ToDo's are Completed!"
+            }
+        },
+        "error": {
+            "duplicate": "Psst, Duplicate Entry!"
+        }
+    }
+}

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Jua');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 * {
-    font-family: 'Jua' !important;
+    font-family: 'Comfortaa' !important;
 }
 
 .ui.icon {
@@ -25,6 +25,10 @@ body {
     color: #F00
 }
 
+.todos-active-default {
+    color: #00C6FF
+}
+
 .todos-align-center {
     text-align: center
 }
@@ -40,6 +44,13 @@ body {
 #todos-form-container {
     max-width: 480px !important;
     margin: 0 auto
+}
+
+#todos-filter-container {
+    font-size: 10px;
+    color: rgba(127, 127, 127, 0.7);
+    font-weight: bold;
+    margin-top: 25px
 }
 
 .todos-item {
