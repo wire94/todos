@@ -37,6 +37,11 @@ body {
     margin-top: 25px
 }
 
+#todos-form-container {
+    max-width: 480px !important;
+    margin: 0 auto
+}
+
 .todos-item {
     position: relative;
     padding-right: 10px;

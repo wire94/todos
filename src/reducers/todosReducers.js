@@ -3,7 +3,7 @@ import { ADD_ITEM, REM_ITEM, COM_ITEM } from "../actions/types";
 const initialState = {
     todos: [],
     duplicate: !!0
-}
+};
 
 const todoReducer = (state = initialState, action) => {
     let todos = Object.assign([], state.todos), duplicate = !!0;
@@ -21,8 +21,10 @@ const todoReducer = (state = initialState, action) => {
             }
         case REM_ITEM:
             for (let i = 0, len = todos.length; i < len; i++)
-                if (todos[i].id == action.payload)
+                if (todos[i].id == action.payload) {
                     todos.splice(i, 1);
+                    break;
+                }
             return {
                 ...state,
                 todos,
@@ -39,6 +41,6 @@ const todoReducer = (state = initialState, action) => {
             }
         default: return state;
     }
-}
+};
 
 export default todoReducer;
